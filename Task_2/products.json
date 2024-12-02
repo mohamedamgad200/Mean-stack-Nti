@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Earbuds test test",
+    "description": "High-quality wireless earbuds with noise-cancellation and long battery life.",
+    "imageUrl": "https://images.unsplash.com/photo-1571091718767-0cbb0a2a93f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Stand",
+    "description": "Adjustable smartphone stand for desks, perfect for video calls and streaming.",
+    "imageUrl": "https://images.unsplash.com/photo-1587835421400-8d5a62c4e8aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+  },
+  {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "description": "Ergonomic gaming mouse with customizable buttons and RGB lighting.",
+    "imageUrl": "https://images.unsplash.com/photo-1621547328246-f0e4ecf4de02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+  },
+  {
+    "id": 4,
+    "name": "Smartphone Stand test",
+    "description": "Adjustable smartphone stand for desks, perfect for video calls and streaming.",
+    "imageUrl": "https://images.unsplash.com/photo-1587835421400-8d5a62c4e8aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
+  },
+  {
+    "id": 5,
+    "name": "Test app app1",
+    "description": "Test app app",
+    "imageUrl": "https://www.agroponiente.com/wp-content/uploads/2024/06/sandia-blanca-sin-semillas-Agroponiente.png"
+  }
+]
