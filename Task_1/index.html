@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>My store</h1>
+        <!-- Filter Section -->
+        <form class="filter">
+            <input type="text" placeholder="search for product..." id="searchByName">
+            <select id="selection-list">
+                <option value="All-categories">All Categories</option>
+            </select>
+            <input type="number" placeholder="Min Price" id="min-price">
+            <input type="number" placeholder="Max Price" id="max-price">
+            <button class="filter-button">Apply Filters</button>
+        </form>
+        <!-- Sort Dropdown -->
+        <select id="sort">
+            <option value="name">Sort by name</option>
+            <option value="rating">Sort by rating</option>
+            <option value="price">Sort by Price</option>
+        </select>
+        <!-- Shopping Cart Section -->
+        <div class="cart-info">
+            <div>
+                <h2>Shopping Cart</h2>
+                <ul class="cart-list"></ul>
+            </div>
+            <p>Total Quantity: <span class="quantity">0</span></p>
+            <p>Total Price: $<span class="price">0.00</span></p>
+        </div>
+    </div>
+    <div class="products">
+    </div>
+    <!-- Pagination -->
+    <div class="pagination">
+    </div>
+    <div class="modal hidden">
+        <button class="close-modal">X</button>
+        <img class="modal-image" alt="Product Image">
+        <h2 class="modal-title"></h2>
+        <p class="modal-description"></p>
+        <p>Category:<span class="model-category"></span></p>
+        <p>Price: <span class="modal-price"></span></p>
+        <p>Rating: <span class="model-rating"></span> (<span class="model-view"></span>) reviews</p>
+    </div>
+    <div class="overlay hidden"></div>
+</body>
+
+</html>
