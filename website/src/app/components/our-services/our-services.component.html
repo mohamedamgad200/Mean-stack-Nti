@@ -1,0 +1,13 @@
+<div class="container">
+    <h3>our Poducts</h3>
+    <div class="products">
+        <div class="card" style="width: 18rem;" *ngFor="let product of products">
+            <img class="card-img-top" [src]="product.images[0]" [alt]="product.title">
+            <div class="card-body">
+                <h5 class="card-title">{{product.title}}</h5>
+                <p class="card-text">{{product.description}}</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>

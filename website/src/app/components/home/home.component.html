@@ -1,0 +1,19 @@
+<form (ngSubmit)="addProduct()" [formGroup]="productForm">
+    <input type="text" formControlName="id" placeholder="id"><br>
+    <input type="text" formControlName="name" placeholder="name"><br>
+    <input type="text" formControlName="description" placeholder="description"><br>
+    <input type="file" formControlName="image" placeholder="file" (change)="onFileChange($event)"><br>
+</form>
+<!-- <form [formGroup]="productForm" (ngSubmit)="addProduct()">
+    <div class="form-group mt-3">
+        <label for="exampleInputEmail1">Id</label>
+        <input type="text" formControlName="id" placeholder="id" class="form-control">
+
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" placeholder="Password" formControlName="password">
+    </div>
+    <p>{{msg}}</p>
+    <button type="submit" class="btn btn-primary mt-2">Submit</button>
+</form> -->

@@ -1,0 +1,46 @@
+/* Basic Styling for Layout */
+header,
+footer {
+  padding: 15px;
+}
+
+header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+aside {
+  height: 100vh; /* Full height sidebar */
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  width: 16.6667%; /* Fixed sidebar width */
+  background-color: #f8f9fa;
+}
+
+main .col-md-9,
+main .col-lg-10 {
+  margin-left: 16.6667%; /* Align content to the right of sidebar */
+}
+
+footer {
+  padding: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+.container-fluid {
+  max-width: 100%;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
