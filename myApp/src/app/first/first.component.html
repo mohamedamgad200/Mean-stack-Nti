@@ -1,0 +1,27 @@
+<h1>Hello</h1>
+<!-- data binding -->
+<!-- class binding -->
+<div [class.active]="isActive">{{name}}</div>
+<!-- <img src={{imgsrc}} /> -->
+<!-- propert binfing -->
+<img [src]="imgsrc" />
+<br />
+<button (click)="sayHello($event)">Hello</button>
+<input type="text" [(ngModel)]="name" />
+<div [style.fontSize]="fontSize">is my name</div>
+<div *ngIf="isActive">I am active now</div>
+<div>
+    <ul>
+        <ng-container *ngFor="let name of names; let i = index">
+            <li *ngIf="i !== 2">{{ i + 1 }} {{ name }}</li>
+        </ng-container>
+    </ul>
+</div>
+<div class="tec">
+    <div *ngFor="let tec of myTech">
+        <img [src]="tec.logoUrl" />
+        <p>{{tec.name}}</p>
+        <p>{{tec.desc}}</p>
+        <button (click)="delete(tec.id)">Delete </button>
+    </div>
+</div>
