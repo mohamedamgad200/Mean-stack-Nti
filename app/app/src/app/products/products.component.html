@@ -1,0 +1,9 @@
+<button (click)="change()">change</button>
+<h3>{{msg}}</h3>
+<div class="container">
+    <div class="products">
+        <div *ngFor="let product of products">
+            <app-product [product]="product" (myLike)="onLike($event)" (deleteProduct)="deleteProduct()"></app-product>
+        </div>
+    </div>
+</div>
